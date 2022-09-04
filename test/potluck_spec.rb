@@ -57,11 +57,9 @@ RSpec.describe Potluck do
     # potluck.get_all_from_category(:appetizer).first
     expect(potluck.get_all_from_category(:appetizer)).to eq([couscous_salad, summer_pizza])
     expect(potluck.get_all_from_category(:dessert)).to eq([candy_salad])
-    expect
+    expect(potluck.get_all_from_category(:appetizer).first.name).to eq("Couscous Salad")
 
-
-
-   end
+    end
   end
 
 end
