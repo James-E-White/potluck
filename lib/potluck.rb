@@ -1,4 +1,5 @@
 class Potluck
+
   attr_reader :date,
               :dishes
 
@@ -13,6 +14,7 @@ class Potluck
 
   def get_all_from_category(category)
     dishes.select do |dish|
-  dish.category == category
+    dish.category == category
+   end
   end
- end
+end
