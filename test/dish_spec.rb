@@ -11,10 +11,4 @@ RSpec.describe Dish do
     expect(dish.category).to eq(:appetizer)
 
   end
-
-
-
-
-
-
 end
